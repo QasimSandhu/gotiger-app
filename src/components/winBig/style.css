@@ -1,0 +1,44 @@
+.bg-red-250 {
+    background-color: #F7D1D1;
+}
+
+@media (max-width: 426px) {
+    .mobile-res {
+        width: 415px;
+        height: auto;
+    }
+
+    .flex-container {
+        flex-direction: column;
+    }
+
+    .c-w-240 {
+        width: 240px;
+    }
+
+    .c-w-415 {
+        width: 415px;
+    }
+
+    .swiper-slide.swiper-slide-active,
+    .swiper-slide {
+        width: 195px !important;
+    }
+
+    .c-px-2 {
+        padding-left: 4px;
+        padding-right: 4px;
+    }
+
+    .grid-container {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .c-w-198 {
+        width: 198px;
+    }
+
+    .c-w-60 {
+        width: 60px;
+    }
+}

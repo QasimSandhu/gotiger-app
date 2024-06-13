@@ -1,0 +1,5 @@
+@media (max-width: 426px) {
+    header.bg-white.shadow-sm.w-full.product-header {
+        display: none;
+    }
+}
